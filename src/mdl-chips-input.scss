@@ -3,11 +3,15 @@
   padding-bottom: 0;
   margin-bottom: 20px;
   border-bottom: 1px solid lightgrey;
+  display: flex;
+
 
   .inputs {
     margin-left: 5px;
     float: left;
     position: relative;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .mdl-chip {
